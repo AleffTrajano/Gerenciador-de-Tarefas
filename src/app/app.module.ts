@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { TarefaModule } from './tarefa';
-import { ListarTarefaComponent } from './tarefas/listar-tarefa/listar-tarefa.component';
+import { ListarTarefaComponent } from './tarefas/listar/listar-tarefa.component';
 
 @NgModule({
   declarations: [
