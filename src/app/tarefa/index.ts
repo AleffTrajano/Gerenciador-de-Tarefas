@@ -1,3 +1,4 @@
 
 
-export * from './tarefa.module'
+export * from './tarefa.module';
+

@@ -5,10 +5,12 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { TarefaModule } from './tarefa';
+import { ListarTarefaComponent } from './tarefas/listar-tarefa/listar-tarefa.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ListarTarefaComponent
   ],
   imports: [
     BrowserModule,
